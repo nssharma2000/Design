@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="mx-auto w-full flex justify-center items-start">
       <div className="w-full flex justify-center items-start">
-        <div id="animated-bg" className="w-full bg-gradient-to-r px-10 pt-10 from-neutral-50 via-red-100 to-gray-50 flex flex-col justify-start items-center gap-10">
+        <div id="animated-bg" className="w-full bg-gradient-to-r from-neutral-50 via-red-100 to-gray-50 flex flex-col justify-start items-center gap-10">
           <Navbar />
           <div className="flex flex-col justify-center items-center text-lg font-light lg:text-4xl">
             <div>The thinkers and</div>
@@ -52,13 +52,13 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="w-full flex justify-start items-center">
+          <div className="w-[90%] flex justify-start items-center">
             <div className="flex flex-col justify-center items-start text-lg lg:text-3xl">
               <div>What we can</div>
               <div>offer you!</div>
             </div>
           </div>
-          <div className="w-full flex flex-col justify-start items-center">
+          <div className="w-[90%] flex flex-col justify-start items-center">
             <hr className="w-full h-1 bg-gray-300 my-6" />
             <div className="w-full flex justify-between items-center">
               <div className="w-[15%] flex flex-col justify-center items-start text-[0.5em] lg:text-sm">
