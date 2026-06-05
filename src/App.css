@@ -1,0 +1,21 @@
+#animated-bg
+{
+    animation: bgAnimation 20s infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes bgAnimation {
+    0%
+    {
+        background-position: 0% 0%;
+    }
+    50%
+    {
+        background-position: 400% 400%;
+    }
+    100%
+    {
+        background-position: 0% 0%;
+    }
+    
+}
